@@ -11,9 +11,22 @@ Made for the ✨ vive‑coding workflow.
 ![Codex](https://img.shields.io/badge/Codex-OpenAI-black)
 
 
-# Installation
+## What is this?
+
+A curated collection of reusable **skills** that teach AI coding agents how to perform specific tasks — from commit conventions to project scaffolding. Each skill is a self‑contained package with instructions the agent reads at runtime.
+
+## Installation
 
 Install all skills from this repository:
 ```bash
 npx skills add albertolicea00/agent-skills
 ```
+
+Or cherry‑pick a single skill:
+```bash
+npx skills add albertolicea00/agent-skills/<skill-name>
+```
+
+## License
+
+[MIT](LICENSE) © Alberto Licea
