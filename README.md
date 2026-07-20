@@ -29,4 +29,6 @@ npx skills add albertolicea00/agent-skills/<skill-name>
 
 ## License
 
-[MIT](LICENSE) © Alberto Licea
+[MIT](LICENSE) — Powered by @albertolicea00 and his unstoppable AI‑agents
+
+> Many of these skills are **AI‑generated** and then reviewed & refined by me. The AI proposes, I approve — every skill passes through manual review before being merged.
