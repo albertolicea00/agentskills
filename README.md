@@ -32,3 +32,9 @@ npx skills add albertolicea00/agent-skills/<skill-name>
 [MIT](LICENSE) — Powered by @albertolicea00 and his unstoppable AI‑agents
 
 > Many of these skills are **AI‑generated** and then reviewed & refined by me. The AI proposes, I approve — every skill passes through manual review before being merged.
+
+<a href="https://github.com/albertolicea00/agentskills/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=albertolicea00/agentskills" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
