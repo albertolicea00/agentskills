@@ -1,9 +1,6 @@
-# >> agent-skills
+<!-- # >> agentskills -->
 
-![AI Coding Agents](https://img.shields.io/badge/AI-Coding%20Agents-blueviolet)
-![Agent Skills](https://img.shields.io/badge/Agent-Skills-orange)
-![npx skills](https://img.shields.io/badge/npx-skills-lightgrey)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+![ascii-art-text](ascii-art-text.png)
 
 My personal set of skills for AI coding agents — the ones I actually use.  
 Made for the ✨ vive‑coding workflow.
