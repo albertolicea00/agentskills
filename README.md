@@ -40,8 +40,8 @@ npx skills add albertolicea00/agentskills -l
 
 | Skill | What it does | Install |
 | --- | --- | --- |
-| [`commit-all`](skills/commit-all/) | Groups the working tree into semantic commits. Never pushes unless you ask. | `npx skills add albertolicea00/agentskills --skill commit-all` |
-| [`timesheet-description-generator`](skills/timesheet-description-generator/) | Turns git commits into tab‑delimited timesheet entries, ready to paste. | `npx skills add albertolicea00/agentskills --skill timesheet-description-generator` |
+| [`CommitAll`](skills/commit-all/) | Groups the working tree into semantic commits. Never pushes unless you ask. | `npx skills add albertolicea00/agentskills --skill commit-all` |
+| [`Timesheet Description Generator`](skills/timesheet-description-generator/) | Turns git commits into tab‑delimited timesheet entries, ready to paste. | `npx skills add albertolicea00/agentskills --skill timesheet-description-generator` |
 
 ## License
 
