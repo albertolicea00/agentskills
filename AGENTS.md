@@ -67,7 +67,9 @@ tests/                # skill test fixtures & expected outputs
 
 7. **Add a row to the `## Skills` table in [README.md](README.md)** — the skill name linked to its directory, one short line on what it does, and the install command. Keep rows alphabetical.
 
-8. **Update the changelog** (see below), then open a PR with [the template](.github/PULL_REQUEST_TEMPLATE.md) and clear its checklist.
+8. **Update the changelog** (see below).
+
+9. **Ship it through the issue and PR flow** — never straight to `main`. See below.
 
 ## Changelog upkeep
 
@@ -108,6 +110,18 @@ Versioning follows [SemVer](https://semver.org/spec/v2.0.0.html): a breaking cha
 - **Prose in skills** — plain English, no hedging, no filler. The reader is a model following instructions, not a human being persuaded.
 - **File references in docs** — relative Markdown links, not bare backticks.
 - **No absolute paths**, no `~/`, no machine-specific assumptions anywhere in a skill.
+
+## New skill intake
+
+A new skill is not a drive-by commit. It goes through both templates, in order:
+
+1. **Open an issue** with [`.github/ISSUE_TEMPLATE/new-skill.md`](.github/ISSUE_TEMPLATE/new-skill.md) *before* writing the skill. Fill in every field: the `kebab-case` name, what it does and why it is worth having, which supported agents it targets, the frontmatter block, and a preview of the core instructions. The issue is where the shape gets argued, so a rejected idea costs an issue instead of a branch.
+2. **Branch** — `skill/<skill-name>` off `main`. Never commit a new skill directly to `main`.
+3. **Build it** following the steps above.
+4. **Open a PR** with [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md). Tick the 🆕 New skill type, name the skill under Skill(s) Affected, link the issue (`Closes #<n>`), and clear every checklist box. The Testing section needs the actual agent, the actual prompt, and the actual output — not "works".
+5. **Merge only with the checklist green.** An unchecked box is a blocker, not a note.
+
+The same flow applies to removing or renaming a skill — both are user-visible breaks. Fixes to an existing skill's instructions may go straight to a PR without an issue.
 
 ## Commit shape
 
@@ -167,6 +181,8 @@ Rules:
 - No private data anywhere in the diff (grep for employer and product names)
 - Instructions are deterministic — two agents reading them produce the same shape of output
 - Edge cases section exists and covers missing/ambiguous input
+- Opened via the new-skill issue template, built on a `skill/<name>` branch
+- PR uses the PR template, links the issue, and has every box ticked
 - Listed in `README.md` under `## Skills`
 - `CHANGELOG.md` updated under `[Unreleased]`
 - Tested on at least one agent, with the prompt and output recorded
