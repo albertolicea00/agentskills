@@ -1,6 +1,10 @@
 <!-- # >> agentskills -->
 
-![ascii-art-text](ascii-art-text.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="ascii-art-text-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="ascii-art-text-light.png">
+  <img alt="clawflows" src="ascii-art-text-light.png">
+</picture>
 
 My personal set of skills for AI coding agents — the ones I actually use.  
 Made for the ✨ vive‑coding workflow.
@@ -31,7 +35,7 @@ npx skills add albertolicea00/agent-skills/<skill-name>
 
 [MIT](LICENSE) — Powered by @albertolicea00 and his unstoppable AI‑agents
 
-> Many of these skills are **AI‑generated** and then reviewed & refined by me. The AI proposes, I approve — every skill passes through manual review before being merged.
+> 🤖 Many of these skills are **AI‑generated** and then reviewed & refined by me. The AI proposes, I approve — every skill passes through manual review before being merged.
 
 <!-- <a href="https://github.com/albertolicea00/agentskills/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=albertolicea00/agentskills" />
