@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `commit-all` — groups the working tree into Conventional Commits with flag-based control; never pushes unless `--push` or an explicit instruction is given.
 - Initial repository setup with base file structure.
 - `timesheet-description-generator` — converts git commits, PRs, or informal task notes into tab-delimited timesheet log entries, consolidated into 1-4 blocks per day.
 - Per-project context discovery for `timesheet-description-generator`: reads `.timesheet-context.md` from the consuming repo, with a fill-in template shipped under `references/`.
