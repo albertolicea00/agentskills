@@ -101,11 +101,43 @@ Versioning follows [SemVer](https://semver.org/spec/v2.0.0.html): a breaking cha
 ## Conventions
 
 - **Directories and skill names** — `kebab-case`.
-- **Commits** — Conventional Commits, matching existing history: `docs:`, `feat:`, `fix:`, `chore:`, `refactor:`. Subject in imperative mood, no trailing period.
+- **Commits** — Conventional Commits. Subject in imperative mood, ≤72 chars, no trailing period. See the commit shape below.
 - **Co-authorship** — allowed, and **mandatory for any commit an AI wrote or substantially edited**. See below.
 - **Prose in skills** — plain English, no hedging, no filler. The reader is a model following instructions, not a human being persuaded.
 - **File references in docs** — relative Markdown links, not bare backticks.
 - **No absolute paths**, no `~/`, no machine-specific assumptions anywhere in a skill.
+
+## Commit shape
+
+Every commit that touches a skill uses the skill's directory name as the scope, so `git log` reads as a per-skill history:
+
+```text
+<type>(<skill-name>): <imperative summary of the behavior>
+```
+
+The scope must match the skill directory and its frontmatter `name` exactly. Types are the standard Conventional Commits set — `feat`, `fix`, `docs`, `refactor`, `chore`, `test`, `build`, `ci`, `revert`. There is no `skill:` type; a new skill is a `feat`.
+
+The subject says what the skill now does. It never lists the files that changed — the diff already does that.
+
+```text
+feat(commit-all): add semantic commit grouping with opt-in push
+fix(commit-all): stop pushing without an explicit flag
+docs(commit-all): clarify the --amend safety conditions
+refactor(timesheet-description-generator): move project vocabulary to a template
+chore(timesheet-description-generator): rename from timesheet-generator
+```
+
+Not this:
+
+```text
+skill(timesheet-description-generator): add SKILL.md and project context template
+```
+
+Wrong type, and the subject describes the file tree instead of the capability.
+
+Repo-level changes that belong to no skill take a conventional area scope, or none at all: `docs(readme):`, `ci:`, `chore(deps):`.
+
+A skill's `CHANGELOG.md` entry ships in the same commit as the change it describes — never as a follow-up `docs:` commit.
 
 ## AI co-authorship
 
