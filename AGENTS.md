@@ -65,7 +65,9 @@ tests/                # skill test fixtures & expected outputs
 
 6. **Test it** — run it in at least one supported agent, with a real prompt, and verify the output matches the spec. Record the prompt and result in the PR's Testing section.
 
-7. **Update the changelog** (see below), then open a PR with [the template](.github/PULL_REQUEST_TEMPLATE.md) and clear its checklist.
+7. **Add a row to the `## Skills` table in [README.md](README.md)** — the skill name linked to its directory, one short line on what it does, and the install command. Keep rows alphabetical.
+
+8. **Update the changelog** (see below), then open a PR with [the template](.github/PULL_REQUEST_TEMPLATE.md) and clear its checklist.
 
 ## Changelog upkeep
 
@@ -165,5 +167,6 @@ Rules:
 - No private data anywhere in the diff (grep for employer and product names)
 - Instructions are deterministic — two agents reading them produce the same shape of output
 - Edge cases section exists and covers missing/ambiguous input
+- Listed in `README.md` under `## Skills`
 - `CHANGELOG.md` updated under `[Unreleased]`
 - Tested on at least one agent, with the prompt and output recorded
