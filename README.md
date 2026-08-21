@@ -31,7 +31,7 @@ Or cherry‑pick a single skill:
 ```bash
 npx skills add albertolicea00/agentskills --skill <skill-name>
 
-# Add `-g` (`--global`) to install at the user level instead of the current project:</sub>
+# Add `-g` (`--global`) to install at the user level instead of the current project:
 npx skills add albertolicea00/agentskills --skill <skill-name> -g
 ```
 
