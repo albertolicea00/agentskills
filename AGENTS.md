@@ -65,7 +65,7 @@ tests/                # skill test fixtures & expected outputs
 
 6. **Test it** — run it in at least one supported agent, with a real prompt, and verify the output matches the spec. Record the prompt and result in the PR's Testing section.
 
-7. **Add a row to the `## Skills` table in [README.md](README.md)** — the skill name linked to its directory, one short line on what it does, and the install command. Keep rows alphabetical.
+7. **Add a row to the `## Skills` table in [README.md](README.md)** — the skill name linked to its directory, its scope (`🌍 global` if it is useful in any repo, `📁 project` if it only makes sense inside one project), one short line on what it does, and the install command. Global rows carry `-g` in the install command; project rows omit it. Keep rows alphabetical.
 
 8. **Update the changelog** (see below).
 

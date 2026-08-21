@@ -27,9 +27,14 @@ npx skills add albertolicea00/agentskills
 ```
 
 Or cherry‑pick a single skill:
+
 ```bash
 npx skills add albertolicea00/agentskills --skill <skill-name>
+
+# Add `-g` (`--global`) to install at the user level instead of the current project:</sub>
+npx skills add albertolicea00/agentskills --skill <skill-name> -g
 ```
+
 
 List what's available without installing anything:
 ```bash
@@ -40,8 +45,10 @@ npx skills add albertolicea00/agentskills -l
 
 | Skill | What it does | Install |
 | --- | --- | --- |
-| [`CommitAll`](skills/commit-all/) | Groups the working tree into semantic commits. Never pushes unless you ask. | `npx skills add albertolicea00/agentskills --skill commit-all` |
-| [`Timesheet Description Generator`](skills/timesheet-description-generator/) | Turns git commits into tab‑delimited timesheet entries, ready to paste. | `npx skills add albertolicea00/agentskills --skill timesheet-description-generator` |
+| 🌍 [`CommitAll`](skills/commit-all/) | Groups the working tree into semantic commits. Never pushes unless you ask. | `npx skills add albertolicea00/agentskills --skill commit-all -g` |
+| 🌍 [`Timesheet Description Generator`](skills/timesheet-description-generator/) | Turns git commits into tab‑delimited timesheet entries, ready to paste. | `npx skills add albertolicea00/agentskills --skill timesheet-description-generator -g` |
+
+<sub>🌍 global — install once at user level, available in every project · 📁 project — install into the repo that needs it (drop the `-g`)</sub>
 
 ## License
 
