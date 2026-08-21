@@ -4,7 +4,7 @@
 
 ## What this repo is
 
-A collection of reusable **skills** for AI coding agents. Each skill is a self-contained directory under [skills/](skills/) holding instructions an agent reads at runtime. Skills are published for public installation via `npx skills add albertolicea00/agentskills/<skill-name>`, so treat everything here as public.
+A collection of reusable **skills** for AI coding agents. Each skill is a self-contained directory under [skills/](skills/) holding instructions an agent reads at runtime. Skills are published for public installation via `npx skills add albertolicea00/agentskills --skill <skill-name>`, so treat everything here as public.
 
 Supported agents: Claude Code, Antigravity, OpenCode, Codex. Skills must not depend on any single agent's proprietary features.
 

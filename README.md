@@ -28,15 +28,20 @@ npx skills add albertolicea00/agentskills
 
 Or cherry‑pick a single skill:
 ```bash
-npx skills add albertolicea00/agentskills/<skill-name>
+npx skills add albertolicea00/agentskills --skill <skill-name>
+```
+
+List what's available without installing anything:
+```bash
+npx skills add albertolicea00/agentskills -l
 ```
 
 ## Skills
 
 | Skill | What it does | Install |
 | --- | --- | --- |
-| [`commit-all`](skills/commit-all/) | Groups the working tree into semantic commits. Never pushes unless you ask. | `npx skills add albertolicea00/agentskills/commit-all` |
-| [`timesheet-description-generator`](skills/timesheet-description-generator/) | Turns git commits into tab‑delimited timesheet entries, ready to paste. | `npx skills add albertolicea00/agentskills/timesheet-description-generator` |
+| [`commit-all`](skills/commit-all/) | Groups the working tree into semantic commits. Never pushes unless you ask. | `npx skills add albertolicea00/agentskills --skill commit-all` |
+| [`timesheet-description-generator`](skills/timesheet-description-generator/) | Turns git commits into tab‑delimited timesheet entries, ready to paste. | `npx skills add albertolicea00/agentskills --skill timesheet-description-generator` |
 
 ## License
 
