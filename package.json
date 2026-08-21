@@ -1,0 +1,37 @@
+{
+  "name": "agentskills",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Personal set of agent skills for AI coding agents, installable with the skills CLI",
+  "keywords": [
+    "agent-skills",
+    "skills",
+    "ai-agents",
+    "claude-code",
+    "antigravity",
+    "opencode",
+    "codex"
+  ],
+  "license": "MIT",
+  "author": "albertolicea00",
+  "homepage": "https://github.com/albertolicea00/agentskills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertolicea00/agentskills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/albertolicea00/agentskills/issues"
+  },
+  "files": [
+    "skills"
+  ],
+  "scripts": {
+    "skills:list": "skills add albertolicea00/agentskills -l",
+    "skills:install": "skills add albertolicea00/agentskills",
+    "skills:install:global": "skills add albertolicea00/agentskills -g",
+    "skills:init": "skills init"
+  },
+  "devDependencies": {
+    "skills": "^1.5.18"
+  }
+}
