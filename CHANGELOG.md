@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial repository setup with base file structure.
 - `timesheet-description-generator` — converts git commits, PRs, or informal task notes into tab-delimited timesheet log entries, consolidated into 1-4 blocks per day.
 - Per-project context discovery for `timesheet-description-generator`: reads `.timesheet-context.md` from the consuming repo, with a fill-in template shipped under `references/`.
+- `apple-design` — comprehensive Apple HIG reference (2025) with 12 on-demand reference files: app icons (all platform sizes + Icon Composer workflow), accessibility, typography, color, layout, Liquid Glass navigation, motion & haptics, inputs & gestures, components (lists/alerts/widgets/Live Activities), patterns (permissions/notifications/onboarding), SF Symbols 6, and platform-specific guidelines (iOS/iPadOS/macOS/watchOS/tvOS/visionOS).

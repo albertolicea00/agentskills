@@ -45,6 +45,7 @@ npx skills add albertolicea00/agentskills -l
 
 | Skill | What it does | Install |
 | --- | --- | --- |
+| 🌍 [`Apple Design`](skills/apple-design/) | Apple HIG reference — app icon sizes, accessibility, typography, color, layout, and Liquid Glass navigation for all Apple platforms. | `npx skills add albertolicea00/agentskills --skill apple-design -g` |
 | 🌍 [`CommitAll`](skills/commit-all/) | Groups the working tree into semantic commits. Never pushes unless you ask. | `npx skills add albertolicea00/agentskills --skill commit-all -g` |
 | 🌍 [`Timesheet Description Generator`](skills/timesheet-description-generator/) | Turns git commits into tab‑delimited timesheet entries, ready to paste. | `npx skills add albertolicea00/agentskills --skill timesheet-description-generator -g` |
 
