@@ -8,6 +8,8 @@ A collection of reusable **skills** for AI coding agents. Each skill is a self-c
 
 Supported agents: Claude Code, Antigravity, OpenCode, Codex. Skills must not depend on any single agent's proprietary features.
 
+When the user asks to modify an existing skill, follow the procedure in [`CONTRIBUTING.md § Modifying an existing skill`](CONTRIBUTING.md#modifying-an-existing-skill).
+
 ## Rule zero: nothing private ships
 
 Skills are public. Before writing or editing any file here, strip:

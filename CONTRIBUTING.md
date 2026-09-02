@@ -2,6 +2,18 @@
 
 > **Note:** This is not an open‑contribution project. This guide exists as a personal reference so I (and my AI agents) know how to keep things organized.
 
+## Modifying an existing skill
+
+If the user asks to **modify, fix, or update a skill** and this repo is cloned locally, edit the source directly — do not ask where it lives.
+
+1. If this is the first time in this session: save the repo's local path to memory (`type: reference`) so future sessions never need to ask.
+2. Match intent to a skill name (`ls skills/` if ambiguous).
+3. Open `skills/<skill-name>/SKILL.md` and apply the change.
+4. `name:` in frontmatter must match the directory name exactly.
+5. Follow commit shape and changelog rules in [`AGENTS.md`](AGENTS.md).
+
+If the repo is not cloned, ask for the path once, then save it to memory.
+
 ## Adding a New Skill
 
 1. **Create the directory**
