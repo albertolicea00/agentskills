@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `dl-mtv` — download, organize, and manage video from HLS/M3U8 streams, direct MP4/AVI URLs, and full seasons from directory-style servers. Includes subtitle retrieval (subliminal/VLC), filename normalization for Plex/Jellyfin/Kodi, metadata scraping (TMDB/TVDB), and integrity verification.
 - `commit-all` — groups the working tree into Conventional Commits with flag-based control; never pushes unless `--push` or an explicit instruction is given.
 - Initial repository setup with base file structure.
 - `timesheet-description-generator` — converts git commits, PRs, or informal task notes into tab-delimited timesheet log entries, consolidated into 1-4 blocks per day.

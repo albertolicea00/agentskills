@@ -45,9 +45,10 @@ npx skills add albertolicea00/agentskills -l
 
 | Skill | What it does | Install |
 | --- | --- | --- |
-| [`Apple Design`](skills/apple-design/) | Apple HIG reference — app icon sizes, accessibility, typography, color, layout, and Liquid Glass navigation for all Apple platforms. | `npx skills add albertolicea00/agentskills --skill apple-design` |
+| 📁 [`Apple Design`](skills/apple-design/) | Apple HIG reference — app icon sizes, accessibility, typography, color, layout, and Liquid Glass navigation for all Apple platforms. | `npx skills add albertolicea00/agentskills --skill apple-design` |
 | 🌍 [`CommitAll`](skills/commit-all/) | Groups the working tree into semantic commits. Never pushes unless you ask. | `npx skills add albertolicea00/agentskills --skill commit-all -g` |
 | 🌍 [`Timesheet Description Generator`](skills/timesheet-description-generator/) | Turns git commits into tab‑delimited timesheet entries, ready to paste. | `npx skills add albertolicea00/agentskills --skill timesheet-description-generator -g` |
+| 🌍 [`dl-mtv`](skills/dl-mtv/) | Download, organize, and manage video — HLS/M3U8, direct MP4/AVI, full seasons from directory-style servers. Covers download, subtitle retrieval (subliminal/VLC), filename normalization, metadata, and integrity verification. | `npx skills add albertolicea00/agentskills --skill dl-mtv -g` |
 
 <sub>🌍 global — install once at user level, available in every project · 📁 project — install into the repo that needs it (drop the `-g`)</sub>
 
