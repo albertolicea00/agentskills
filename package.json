@@ -29,7 +29,8 @@
     "skills:list": "skills add albertolicea00/agentskills -l",
     "skills:install": "skills add albertolicea00/agentskills",
     "skills:install:global": "skills add albertolicea00/agentskills -g",
-    "skills:init": "skills init"
+    "skills:init": "skills init",
+    "test": "node --test 'tests/**/*.test.js'"
   },
   "devDependencies": {
     "skills": "^1.5.18"
