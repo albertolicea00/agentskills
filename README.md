@@ -61,7 +61,7 @@ npx skills add albertolicea00/agentskills -l
 
 ## License
 
-[MIT](LICENSE) — Powered by @albertolicea00 and his unstoppable AI‑agents
+[Unlicense](UNLICENSE) — Powered by @albertolicea00 and his unstoppable AI‑agents
 
 > 🤖 Many of these skills are **AI‑generated** and then reviewed & refined by me. The AI proposes, I approve — every skill passes through manual review before being merged.
 
