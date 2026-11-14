@@ -55,6 +55,8 @@ npx skills add albertolicea00/agentskills -l
 ## Related repos
 
 
+- [**albertolicea00/agentsconfig**](https://github.com/albertolicea00/agentsconfig) — global Git security hooks, AI agent configurations, and skill lockfiles.
+- [**albertolicea00/agentscripts**](https://github.com/albertolicea00/agentscripts) — Google Colab notebooks and local shell scripts for media & automation.
 - [**albertolicea00/clawflows**](https://github.com/albertolicea00/clawflows) — the workflow half of this setup: ready-to-use OpenClaw workflows for multi-step tasks you can fire from a chat app. *code, vibe, repeat...*
 - [**vercel-labs/skills**](https://github.com/vercel-labs/skills) — the open agent skills ecosystem, and the `npx skills` CLI every install command on this page runs on.
 - [**midudev/autoskills**](https://github.com/midudev/autoskills) — auto-detects your project and installs the best AI agent skills for it. ([autoskills.sh](https://autoskills.sh))
