@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `dl-game` — search Archive.org game collections and download/verify via Colab-to-Drive or locally with SHA-1 integrity checks.
 - `dl-mtv` — download, organize, and manage video from HLS/M3U8 streams, direct MP4/AVI URLs, and full seasons from directory-style servers. Includes subtitle retrieval (subliminal/VLC), filename normalization for Plex/Jellyfin/Kodi, metadata scraping (TMDB/TVDB), and integrity verification.
 - `commit-all` — groups the working tree into Conventional Commits with flag-based control; never pushes unless `--push` or an explicit instruction is given.
 - Initial repository setup with base file structure.
